@@ -41,7 +41,7 @@ Click the Open app button
 heroku config:set SLACK_SIGNING_SECRET=<your-signing-secret>
 heroku config:set SLACK_BOT_TOKEN=xoxb-<your-bot-token>
 heroku config:set SLACK_CLIENT_ID=<your-client-id>
-heroku config:set SLACK_CLIENT_SECRET=xoxb-<your-client-secret>
+heroku config:set SLACK_CLIENT_SECRET=<your-client-secret>
 ```
 
 You see Slack API pages, and go to 「Basic Information」and「OAuth & Permissions」-> Bot User OAuth Access Token, It is Starts with 「xoxb-」
